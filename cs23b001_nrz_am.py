@@ -13,7 +13,7 @@ T = 7
 
 t = np.linspace(0, T, N, endpoint = False)
 
-carrier_signal = np.cos(2* np.pi * fc * t)
+carrier_signal = np.sin(2* np.pi * fc * t)
 
 # Amplitude Modulation
 am_signal = message * carrier_signal
