@@ -18,4 +18,4 @@ carrier_signal = np.cos(2* np.pi * fc * t)
 # Amplitude Modulation
 mod_index = 0.8
 
-am_signal = (1.0 + mod_index * message) * carrier_signal
+am_signal = message * carrier_signal
